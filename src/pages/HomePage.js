@@ -6,7 +6,6 @@ import {
   faGithub,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,18 +24,38 @@ const HomePage = () => {
           aliquam voluptas optio.
         </p>
         <div className="icons">
-          <Link className="icon-link">
+          <a
+            className="icon-link"
+            href="https://www.linkedin.com/in/kenneth-aladi/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon in" />
-          </Link>
-          <Link className="icon-link">
+          </a>
+          <a
+            className="icon-link"
+            href="https://twitter.com/Aqua_Robotics"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} className="icon tw" />
-          </Link>
-          <Link className="icon-link">
+          </a>
+          <a
+            className="icon-link"
+            href="https://github.com/kendevops"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link className="icon-link">
+          </a>
+          <a
+            className="icon-link"
+            href="https://www.youtube.com/channel/UCpA6UQUrD9oigQXTUXH8rLQ"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faYoutube} className="icon yt" />
-          </Link>
+          </a>
         </div>
       </header>
     </div>
