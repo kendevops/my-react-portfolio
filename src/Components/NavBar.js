@@ -1,14 +1,14 @@
 import React from "react";
-import myself from "../img/myself.jpg";
+import myself from "../img/me.png";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <div className="profile">
-        <img src={myself} alt="Kenneth Aladi" />
-      </div>
       <nav className="nav">
+        <div className="profile">
+          <img src={myself} alt="Kenneth Aladi" />
+        </div>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" exact activeClassName="active">
@@ -16,30 +16,30 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/About" exact activeClassName="active">
+            <NavLink to="/about" exact activeClassName="active">
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/About" exact activeClassName="active">
+            <NavLink to="/portfolio" exact activeClassName="active">
               Portfolios
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/About" exact activeClassName="active">
+            <NavLink to="/blog" exact activeClassName="active">
               Blogs
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/About" exact activeClassName="active">
-              Blogs
+            <NavLink to="/contact" exact activeClassName="active">
+              Contact
             </NavLink>
           </li>
         </ul>
+        <footer className="footer">
+          <p>@2021 Kenneth Aladi</p>
+        </footer>
       </nav>
-      <footer className="footer">
-        <p>@2021 Kenneth Aladi</p>
-      </footer>
     </div>
   );
 };
