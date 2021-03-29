@@ -9,7 +9,7 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div className="HomePage">
       <header className="hero">
@@ -67,4 +67,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
