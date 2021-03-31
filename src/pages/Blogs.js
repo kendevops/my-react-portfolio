@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../Components/Title";
 
 const Blogs = () => {
   return (
-    <div>
-      <h1>Blogs</h1>
+    <div className="Blog">
+      <Title title={"Blogs"} span={"Blogs"} />
     </div>
   );
 };

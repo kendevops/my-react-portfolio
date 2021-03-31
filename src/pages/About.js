@@ -1,11 +1,15 @@
 import React from "react";
-import myself from "../img/myself.jpg";
+import ImageSection from "../Components/ImageSection";
+import SkillsSection from "../Components/SkillsSection";
+import Title from "../Components/Title";
 
 const About = () => {
   return (
     <div className="About">
-      <h1>About</h1>
-      <img src={myself} alt="Kenneth Aladi" />
+      <Title title={"About Me"} span={"About Me"} />
+      <ImageSection />
+      <Title title={"My Skills"} span={"My Skills"} />
+      <SkillsSection skill={"JavaScript"} progress={"70%"} />
     </div>
   );
 };

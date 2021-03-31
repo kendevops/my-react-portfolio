@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../Components/Title";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="Contact">
+      <Title title={"Contact"} span={"Contact"} />
     </div>
   );
 };
