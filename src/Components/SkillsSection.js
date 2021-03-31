@@ -9,7 +9,7 @@ const SkillsSection = ({ skill, progress }) => {
           <p className="skill-text">{progress}</p>
           <div className="skill-progress">
             <div className="progress">
-                <div className="inner-progress"></div>
+              <div className="inner-progress" style={{ width: progress }}></div>
             </div>
           </div>
         </div>
