@@ -1,5 +1,6 @@
 import React from "react";
 import ImageSection from "../Components/ImageSection";
+import ServiceSection from "../Components/ServiceSection";
 import SkillsSection from "../Components/SkillsSection";
 import Title from "../Components/Title";
 
@@ -20,6 +21,10 @@ const About = () => {
         <SkillsSection skill={"Wordpress"} progress={"90%"} />
         <SkillsSection skill={"JSON"} progress={"90%"} />
         <SkillsSection skill={"Rest API"} progress={"90%"} />
+      </div>
+      <Title title={"My Services"} span={"My Services"} />
+      <div className="services-container">
+        <ServiceSection image={"design"} />
       </div>
     </div>
   );
