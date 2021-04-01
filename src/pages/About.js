@@ -3,6 +3,7 @@ import ImageSection from "../Components/ImageSection";
 import ServiceSection from "../Components/ServiceSection";
 import SkillsSection from "../Components/SkillsSection";
 import Title from "../Components/Title";
+import img from "../img/shineBg.jpeg";
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
       </div>
       <Title title={"My Services"} span={"My Services"} />
       <div className="services-container">
-        <ServiceSection image={"design"} />
+        <ServiceSection image={img} />
       </div>
     </div>
   );
