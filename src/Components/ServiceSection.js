@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ServiceSection = () => {
+const ServiceSection = ({image}) => {
     return (
         <div className="Services">
-            
+            {image}
         </div>
     )
 }
