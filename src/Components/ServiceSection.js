@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
+const ServiceSection = ({ image }) => {
+  return (
+    <div className="Services">
+      <img src={image} alt="laptop and mobile" />
+      <h5 className="s-title">Front-End Web Developer</h5>
+      <p className="s-text"></p>
+    </div>
+  );
+};
 
-const ServiceSection = ({image}) => {
-    return (
-        <div className="Services">
-            {image}
-        </div>
-    )
-}
-
-export default ServiceSection
+export default ServiceSection;
