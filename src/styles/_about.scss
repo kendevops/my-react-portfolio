@@ -1,3 +1,7 @@
+// .About {
+//   width: 100%;
+// }
+
 .ImageSection {
   display: flex;
   margin-top: 4rem;
@@ -56,4 +60,8 @@
   column-gap: 4rem;
   row-gap: 3rem;
   margin: 4rem 0;
+}
+
+.services-container {
+  display: flex;
 }
