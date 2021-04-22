@@ -1,7 +1,8 @@
 .Services {
   .service {
     margin-top: 4rem;
-    width: 100%;
+    width: 50%;
+    height: auto;
     background-color: #191d2b;
     border: 1px solid #2e344e;
     border-top: 8px solid #2e344e;
@@ -12,7 +13,7 @@
     .service-content {
       padding: 1rem 2rem;
       .s-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 500;
         text-transform: uppercase;
         position: relative;
@@ -32,9 +33,9 @@
     .s-img {
       width: 50%;
     }
-
     .s-text {
-      padding-top: 0.4rem;
+      padding-top: 0.2rem;
+      font-size: 1rem;
     }
   }
 }

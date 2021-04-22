@@ -27,7 +27,7 @@ const About = () => {
       <Title title={"My Services"} span={"My Services"} />
       <div className="services-container">
         <ServiceSection image={design} title={"Front-End Developer"} description={"I Develop user-friendly features using uptodate technologies, I also build reusable code and libraries for future use, I ensure the technical feasibility of UI/UX designs are well implimented, Optimize application for maximum speed and scalability."} />
-        <ServiceSection image={design} title={"Front-End Web Developer"} description={"I Develop user-friendly features using uptodate technologies, I also build reusable code and libraries for future use, I ensure the technical feasibility of UI/UX designs are well implimented, Optimize application for maximum speed and scalability."} />
+        <ServiceSection image={design} title={"FACILITATOR/MENTOR"} description={"I am a Facilitator and Mentor, I have on different occassion facilitated for Google African Developer Scholarship, Facebook Developer Circle Training and also the Lead Facilitator to Code2Teach Africa, I am a passionate tech enthusiast, I teach programming with passion and i ensure i explain in details concepts about programming to my students."} />
         <ServiceSection image={design} title={"Front-End Web Developer"} description={"I Develop user-friendly features using uptodate technologies, I also build reusable code and libraries for future use, I ensure the technical feasibility of UI/UX designs are well implimented, Optimize application for maximum speed and scalability."} />
       </div>
     </div>
