@@ -1,0 +1,37 @@
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .blog{
+        background-color: #161925;
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        .blog-content{
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                transition: all .2s ease-in-out;
+                max-height: 300px;
+	            overflow: hidden;
+                padding-bottom: 1rem;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .blog-link{
+            color: inherit;
+            font-family: inherit;
+            font-size: 1rem;
+            margin: 2rem 0;
+            transition: all .4s ease-in-out;
+            &:hover{
+                color: #037FFF;
+            }
+        }
+    }
+}
