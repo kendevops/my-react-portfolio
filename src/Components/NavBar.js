@@ -1,5 +1,5 @@
 import React from "react";
-import myself from "../img/me.png";
+import myself from "../img/mypix.jpeg";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {

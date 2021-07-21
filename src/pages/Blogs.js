@@ -4,8 +4,10 @@ import AllBlogs from '../Components/AllBlogs';
 
 const Blogs = () => {
   return (
-    <div className="Blog">
-      <Title title={"Blogs"} span={"Blogs"} />
+    <div>
+      <div className="b-title">
+        <Title title={"Blogs"} span={"Blogs"} />
+      </div>
       <AllBlogs />
     </div>
   );
