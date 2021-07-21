@@ -4,12 +4,31 @@ const AllBlogs = () => {
     const [blogData, getBlogData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(async () => {
-        const data = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kendevops`);
-        const res = data.json();
-        console.log(res);
-        getBlogData(res);
+    useEffect(() => {
+        fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kendevops`)
+        .then(res => res.json())
+        .then(response => {
+            getBlogData(response.items);
+            setIsLoading(false);
+        })
+      .catch(err => console.log(err));
     }, [])
+
+    return (
+        <div>
+            {(blogData === []) ?
+                isLoading && <p>Fetching Blog Data from Medium...!</p> :
+                blogData.map((blog) => (
+                    <div className="blog" key={blog.guid}>
+                        <div className="blog-content">
+                            <img src={blog.thumbnail} alt={blog.title} />
+                            <a href={blog.link} className="blog-link" target="_blank" rel="noreferrer">{blog.title}</a>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    )
 }
 
 export default AllBlogs;
