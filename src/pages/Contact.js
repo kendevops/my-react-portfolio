@@ -5,7 +5,9 @@ import ContactSection from "../Components/ContactSection";
 const Contact = () => {
   return (
     <div className="Contacts">
-      <Title title={"Contact"} span={"Contact"} />
+      <div className="contact-title">
+        <Title title={"Contact"} span={"Contact"} />
+      </div>
       <div className="contact-details">
         <div className="map-sect">
           <iframe
