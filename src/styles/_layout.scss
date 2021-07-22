@@ -1,6 +1,6 @@
 .App {
   .sidebar {
-    width: 16%;
+    width: 20%;
     height: 100vh;
     background-color: #191d2b;
     position: fixed;
@@ -8,8 +8,8 @@
   }
 
   .main-content {
-    width: 84%;
-    margin-left: 16%;
+    width: 80%;
+    margin-left: 20%;
     background-color: #10121b;
     min-height: 100vh;
     background-image: url(../img/shineBg.jpeg);
@@ -19,7 +19,7 @@
     display: grid;
     position: relative;
     .content {
-      margin: 5rem 10rem;
+      margin: 5rem 6rem;
     }
   }
 }

@@ -1,6 +1,9 @@
 import React from "react";
 import Title from "../Components/Title";
 import ContactSection from "../Components/ContactSection";
+import phone from "../img/phone.svg";
+import email from "../img/emailme.svg";
+import location from "../img/location.svg";
 
 const Contact = () => {
   return (
@@ -23,21 +26,20 @@ const Contact = () => {
         </div>
         <div className="contact-sect">
           <ContactSection
-            // icon={phone}
+            icon={phone}
             text1={"+2347033960652"}
             text2={"(+234) 815 2269 553"}
-            title={"Phone"}
+            title={"Phone No"}
           />
           <ContactSection
-            // icon={email}
-            text1={"+2347033960652"}
-            text2={"(+234) 815 2269 553"}
-            title={"Email"}
+            icon={email}
+            text1={"kendevops@gmail.com"}
+            title={"Email me"}
           />
           <ContactSection
-            // icon={location}
-            text1={"+2347033960652"}
-            text2={"(+234) 815 2269 553"}
+            icon={location}
+            text1={"PortHarcourt, Rivers State"}
+            text2={"Nigeria"}
             title={"Location"}
           />
         </div>

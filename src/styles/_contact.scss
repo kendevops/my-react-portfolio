@@ -21,7 +21,7 @@
 .contact-details {
   display: flex;
   .map-sect {
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     background-color: #191d2b;
     iframe {
@@ -31,6 +31,7 @@
   }
   .contact-sect {
     width: 100%;
+    margin-left: 2rem;
   }
 }
 
