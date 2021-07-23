@@ -3,8 +3,9 @@ import ImageSection from "../Components/ImageSection";
 import ServiceSection from "../Components/ServiceSection";
 import SkillsSection from "../Components/SkillsSection";
 import Title from "../Components/Title";
-import cloud from "../img/cloud.svg";
+import cloud from "../img/cloud-compute2.svg";
 import design from "../img/design3.png";
+import mentor from "../img/coaching.png";
 
 const About = () => {
   return (
@@ -27,8 +28,8 @@ const About = () => {
       <Title title={"My Services"} span={"My Services"} />
       <div className="services-container">
         <ServiceSection image={design} title={"Front-End Developer"} description={"I Develop user-friendly features using uptodate technologies, I also build reusable code and libraries for future use, I ensure the technical feasibility of UI/UX designs are well implimented, Optimize application for maximum speed and scalability."} />
-        <ServiceSection image={design} title={"FACILITATOR/MENTOR"} description={"I am a Facilitator and Mentor, I have on different occassion facilitated for Google African Developer Scholarship, Facebook Developer Circle Training and also the Lead Facilitator to Code2Teach Africa, I am a passionate tech enthusiast, I teach programming with passion and i ensure i explain in details concepts about programming to my students."} />
-        <ServiceSection image={cloud} title={"Cloud Developer"} description={"I Develop user-friendly features using uptodate technologies, I also build reusable code and libraries for future use, I ensure the technical feasibility of UI/UX designs are well implimented, Optimize application for maximum speed and scalability."} />
+        <ServiceSection image={cloud} title={"Cloud Developer"} description={"I create applications that are served on the cloud. I also analyze customer needs, designing systems and solutions, coding, debugging, monitor and fix problems with the cloud applications so that customers experience minimal downtime."} />
+        <ServiceSection image={mentor} title={"FACILITATOR/MENTOR"} description={"I am a Facilitator and Mentor, I have on different occassion facilitated for Google African Developer Scholarship, Facebook Developer Circle Training and also the Lead Facilitator to Code2Teach Africa, I am a passionate tech enthusiast, I teach programming with passion and i ensure i explain in details concepts about programming to my students."} />
       </div>
     </div>
   );

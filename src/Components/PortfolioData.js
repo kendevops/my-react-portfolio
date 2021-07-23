@@ -1,12 +1,13 @@
 import { useState } from "react"
 import React from 'react'
 
-function PortfolioData() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const portfolios = [
+    {
+        id: 1,
+        category: ""
+    },
+    {},
+    {},
+]
 
 export default PortfolioData
