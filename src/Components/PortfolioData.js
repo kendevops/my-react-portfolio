@@ -7,7 +7,7 @@ import chrome from "../img/chrome-extention.png"
 import arcade from "../img/arcade.png"
 import movies from "../img/nominate-movies.png"
 
-const Portfolios = [
+const PortfolioData = [
     {
         id: 1,
         title: "Recipe App",
@@ -89,4 +89,4 @@ const Portfolios = [
     // ["https://kendevops.github.io/url-shorting/ and https://github.com/kendevops/Insure_landing_page", "https://kendevops.github.io/Insure_landing_page/ and https://github.com/kendevops/Insure_landing_page", "https://ken-rock-scissors-paper.netlify.app/ and https://github.com/kendevops/rock-paper-scissors", "https://iqstore.ivyarc.com/ and https://github.com/kendevops/iqstore-frontend"]
 ]
 
-export default Portfolios;
+export default PortfolioData;
