@@ -1,10 +1,10 @@
 import React from 'react'
 
-function MenuItems({menuItems}) {
+function MenuItems({menuItem}) {
     return (
         <div>
             {
-                menuItems.map((item, index) => (
+                menuItem.map(item => (
                     <div className="portfolio" key={item.id}>
                         <div className="image-data">
                             <img src={item.image} alt={item.title} />

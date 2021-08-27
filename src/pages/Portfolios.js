@@ -15,7 +15,7 @@ const Portfolios = () => {
       </div>
       <div className="portfolioDetails">
         <Categories categories={categories}/>
-        <MenuItems menuItems={menuItems}/>
+        <MenuItems menuItem={menuItems}/>
       </div>
 
     </div>
