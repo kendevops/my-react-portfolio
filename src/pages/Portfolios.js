@@ -9,8 +9,8 @@ const Portfolios = () => {
   const [menuItems, setMenuItems] = useState(PortfolioData);
 
   return (
-    <div className="Portfolio">
-      <div className="title">
+    <div className="portfolio-data">
+      <div className="portfolio-title">
         <Title title={"Portfolio"} span={"Portfolio"} />
       </div>
       <div className="portfolioDetails">

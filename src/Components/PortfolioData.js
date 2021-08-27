@@ -21,7 +21,7 @@ const PortfolioData = [
     },
     {
         id: 2,
-        title: "Sales Wale Site",
+        title: "Sales Wale Clone",
         category: "React",
         image: saleswale,
         previewIcon: previewImage,
