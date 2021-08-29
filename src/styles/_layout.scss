@@ -4,9 +4,20 @@
     height: 100vh;
     background-color: #191d2b;
     position: fixed;
+    z-index: 11;
     border-right: 1px solid #2e344e;
+    transition: all .4s ease-in-out;
     @media screen  and (max-width: 1000px) {
+      transition: all .4s ease-in-out;
       transform: translateX(-100%);
+    }
+  }
+
+  .nav-toggle{
+    @media screen  and (max-width: 1000px) {
+      transform: translateX(0);
+      transition: all .4s ease-in-out;
+      width: 30%;
     }
   }
 
@@ -38,7 +49,6 @@
   top: 5%;
   width: 5rem;
   height: 4rem;
-  // display: none;
   display: flex;
   align-items: center;
   justify-content: center;
