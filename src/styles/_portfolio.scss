@@ -25,7 +25,7 @@
             }
             &:hover::before{
                 transform: scale(1);
-                opacity: 0.7;
+                opacity: 0.9;
             }
             img{
                 width: 100%;
@@ -43,11 +43,11 @@
                 padding: 1rem 2rem;
                 visibility: hidden;
                 img{
-                    width: 3rem;
-                    height: 3rem;
+                    width: 2.5rem;
+                    height: 2.5rem;
                 }
-                .icons a{
-                    margin-right: 1.5rem;
+                .icons a:not(:last-child){
+                    margin-right: 2.5rem;
                 }
 
             }
@@ -55,8 +55,36 @@
                 .hover-items{
                     visibility: visible;
                     transition: all .9s ease-in-out .2s;
-
+                    .icons a:first-child{
+                        &::after{
+                            content: "Preview";
+                            visibility: hidden;
+                            position: absolute;
+                            font-size: 1rem;
+                            color: #fff;
+                            bottom: 10%;
+                            right: 60%;
+                        }
+                        &:hover::after{
+                            visibility: visible;
+                        }
+                    }
+                    .icons a:last-child{
+                        &::after{
+                            content: "Github";
+                            visibility: hidden;
+                            position: absolute;
+                            font-size: 1rem;
+                            color: #fff;
+                            bottom: 10%;
+                            left: 60%;
+                        }
+                        &:hover::after{
+                            visibility: visible;
+                        }
+                    }
                 }
+
             }
         }
 
