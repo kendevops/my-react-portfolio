@@ -3,6 +3,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 
+    .loadingImg{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
     .blog{
         background-color: #161925;
         width: 100%;

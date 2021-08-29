@@ -19,7 +19,7 @@ const ImageSection = () => {
           Strong desire to learn and am also open to suggestions, advice and
           guidance.
         </p>
-        <button className="btn">Download CV</button>
+        <button className="btn"><a href="https://drive.google.com/file/d/1QedXFDvoFPF_uhG6CJAGJWlifb9X6AGN/view?usp=sharing" download target="_blank" rel="noreferrer" >Download CV</a></button>
       </div>
     </div>
   );

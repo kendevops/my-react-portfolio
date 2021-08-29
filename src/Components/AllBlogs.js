@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react';
+import loading from "../img/loading.jpg"
 
 const AllBlogs = () => {
     const [blogData, getBlogData] = useState([]);
@@ -16,8 +17,8 @@ const AllBlogs = () => {
 
     return (
         <div className="blogs">
-            {(blogData === []) ?
-                isLoading && <p>Fetching Blog Data from Medium...!</p> :
+            {(isLoading) ?
+                <img className="loadingImg" src={loading} alt="loading.."/> :
                 blogData.map((blog) => (
                     <div className="blog" key={blog.guid}>
                         <div className="blog-content">

@@ -6,6 +6,7 @@ import covid19 from "../img/Covid19.png"
 import chrome from "../img/chrome-extention.png"
 import arcade from "../img/arcade.png"
 import movies from "../img/nominate-movies.png"
+import landing from "../img/landing.png"
 
 const PortfolioData = [
 
@@ -75,6 +76,17 @@ const PortfolioData = [
         github: "https://github.com/kendevops/The-Shoppies",
 
     },
+    {
+        id: 7,
+        title: "Video Landing Page",
+        category: "JavaScript",
+        image: landing,
+        previewIcon: previewImage,
+        githubIcon: gitIcon,
+        preview: "https://kendevops.github.io/Video_Landing_Page",
+        github: "https://github.com/kendevops/Video_Landing_Page",
+
+    },
     // {
     //     id: 6,
     //     title: "Covid19 Tracker",
@@ -82,7 +94,7 @@ const PortfolioData = [
     //     image: covid19,
     //     previewIcon: previewImage,
     //     githubIcon: gitIcon,
-    //     preview: "https://the-shoppies-ken.netlify.app/",
+    //     preview: "https://kendevops.github.io/Video_Landing_Page",
     //     github: "https://github.com/kendevops/The-Shoppies",
 
     // },

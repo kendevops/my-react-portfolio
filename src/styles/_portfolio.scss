@@ -54,8 +54,8 @@
             }
             &:hover{
                 .hover-items{
+                    transition: all .5s ease-in-out .2s;
                     visibility: visible;
-                    transition: all .4s ease-in-out .4s;
                     .icons a:first-child{
                         &::after{
                             content: "Preview";
