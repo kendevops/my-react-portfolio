@@ -39,6 +39,7 @@
                 position: absolute;
                 top: 50%;
                 left: 50%;
+                transform-origin: top;
                 transform: translate(-50%, -50%);
                 padding: 1rem 2rem;
                 visibility: hidden;
@@ -54,7 +55,7 @@
             &:hover{
                 .hover-items{
                     visibility: visible;
-                    transition: all .9s ease-in-out .2s;
+                    transition: all .4s ease-in-out .4s;
                     .icons a:first-child{
                         &::after{
                             content: "Preview";
@@ -102,4 +103,41 @@
         }
 
     }
+}
+
+.btn-portfolio{
+    padding: .6rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #0381ff73;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all .4s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #037FFF;
+    }
+    &:active {
+        background-color: #037FFF;
+    }
+
+    &:focus{
+        background-color: #037FFF;
+    }
+
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+    flex-wrap: wrap;
 }

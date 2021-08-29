@@ -8,19 +8,9 @@ import arcade from "../img/arcade.png"
 import movies from "../img/nominate-movies.png"
 
 const PortfolioData = [
+
     {
         id: 1,
-        title: "Recipe App",
-        category: "JavaScript",
-        image: recipe,
-        previewIcon: previewImage,
-        githubIcon: gitIcon,
-        preview: "https://kendevops.github.io/More-Recipes/",
-        github: "https://github.com/kendevops/More-Recipes",
-
-    },
-    {
-        id: 2,
         title: "Sales Wale Clone",
         category: "React",
         image: saleswale,
@@ -31,7 +21,7 @@ const PortfolioData = [
 
     },
     {
-        id: 3,
+        id: 2,
         title: "Covid19 Tracker",
         category: "React",
         image: covid19,
@@ -42,9 +32,9 @@ const PortfolioData = [
 
     },
     {
-        id: 4,
+        id: 3,
         title: "Real Time Chrome Extention",
-        category: "React",
+        category: "JavaScript",
         image: chrome,
         previewIcon: previewImage,
         githubIcon: gitIcon,
@@ -53,9 +43,20 @@ const PortfolioData = [
 
     },
     {
+        id: 4,
+        title: "Recipe App",
+        category: "JavaScript",
+        image: recipe,
+        previewIcon: previewImage,
+        githubIcon: gitIcon,
+        preview: "https://kendevops.github.io/More-Recipes/",
+        github: "https://github.com/kendevops/More-Recipes",
+
+    },
+    {
         id: 5,
         title: "Arcade Game",
-        category: "React",
+        category: "JavaScript",
         image: arcade,
         previewIcon: previewImage,
         githubIcon: gitIcon,
