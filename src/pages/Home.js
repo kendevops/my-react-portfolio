@@ -19,14 +19,8 @@ const Home = () => {
         </h1>
         <p className="sub-text">
           I have hands-on experience efficiently coding websites and
-          applications using modern HTML, CSS, JavaScript, Reactjs, MaterialUI,
-          Redux, AWS Amplify, SCSS, Wordpress, JSON and Rest API. Building
-          state-of-the-art, easy to use, responsive, user-friendly websites and
-          applications is truly a passion of mine. In addition to my knowledge
-          base, I actively seek out new technologies and stay up-to-date on
-          industry trends and advancements, this has allowed me to stay ahead of
-          the curve and deliver exceptional work to all of my employers,
-          including those I've worked for on a project base.
+          applications. Building state-of-the-art, easy to use, responsive, user-friendly websites and
+          applications is truly a passion of mine.
         </p>
         <div className="icons">
           <a

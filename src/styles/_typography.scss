@@ -12,11 +12,17 @@
   span {
     color: #037fff;
   }
+  @media (max-width: 768px) {
+    font-size: 2.4rem;
+  }
 }
 
 .sub-text {
   color: #fff;
   text-align: justify;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .icons {
