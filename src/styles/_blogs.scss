@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat((1, 1fr));
+    }
 
     .loadingImg{
         display: block;
@@ -28,6 +31,13 @@
                     transform: scale(1.1);
                 }
             }
+        }
+        @media screen and (max-width: 768px) {
+            width: 80%
+        }
+
+        @media screen and (max-width: 411px) {
+            width: 100%;
         }
 
         .blog-link{

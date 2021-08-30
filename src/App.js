@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? "nav-toggle": ""}`}>
-        <NavBar />
+        <NavBar click={navClick}/>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>
@@ -28,7 +28,7 @@ const App = () => {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/" exact>
+            <Route path="/" exact >
               <Home />
             </Route>
             <Route path="/about" exact>
