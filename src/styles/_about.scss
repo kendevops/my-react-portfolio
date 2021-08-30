@@ -24,6 +24,17 @@
       font-size: 2rem;
     }
   }
+
+  @media screen  and (max-width: 1000px) {
+      flex-direction: column;
+      .img{
+        width: 70%;
+      }
+      .about-info{
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+    }
 }
 
 .btn {
@@ -71,3 +82,4 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
