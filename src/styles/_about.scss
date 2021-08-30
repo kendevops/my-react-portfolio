@@ -28,8 +28,7 @@
   @media screen  and (max-width: 1000px) {
       flex-direction: column;
       .img{
-        width: 70%;
-        //min-width: 40%;
+        width: 100%;
       }
       .about-info{
         width: 100%;
@@ -77,11 +76,17 @@
   column-gap: 4rem;
   row-gap: 3rem;
   margin: 4rem 0;
+  @media screen  and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .services-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media screen  and (max-width: 1000px) {
+    flex-direction: column;
+  }
 }
 

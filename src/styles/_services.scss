@@ -1,5 +1,10 @@
 .Services {
   width: 50%;
+
+  @media screen  and (max-width: 1000px) {
+    width: 100%;
+
+}
   .service {
     margin-top: 4rem;
     width: 95%;
@@ -10,6 +15,13 @@
     transition: all 0.4s ease-in-out;
     &:hover {
       border-top: 8px solid #037fff;
+    }
+    @media screen  and (max-width: 1000px) {
+        margin-top: 3rem;
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+
     }
     .service-content {
       padding: 1rem 2rem;
@@ -33,10 +45,19 @@
     }
     .s-img {
       width: 30%;
+      height: 100%;
     }
     .s-text {
       padding-top: 0.2rem;
       font-size: 1rem;
+    }
+    @media screen  and (max-width: 1000px) {
+      .s-img {
+        width: 18%;
+      }
+      .s-text {
+        font-size: 1.2rem;
+      }
     }
   }
 }

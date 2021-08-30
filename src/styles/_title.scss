@@ -5,6 +5,9 @@
   position: relative;
   padding-bottom: 1rem;
   letter-spacing: 3px;
+  @media screen  and (max-width: 680px) {
+    font-size: 1.8rem;
+  }
   &::before {
     content: "";
     bottom: 0;
@@ -30,6 +33,10 @@
     top: 15%;
     left: 0;
     font-size: 5rem;
-    opacity: 0.18;
+    opacity: 0.2;
+
+    @media screen  and (max-width: 680px) {
+      font-size: 3.5rem;
+    }
   }
 }
