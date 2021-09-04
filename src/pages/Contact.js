@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="contact-details">
         <div className="map-sect">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147665.4209188347!2d6.956277835259235!3d4.831198917144095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt!5e0!3m2!1sen!2sng!4v1626935573016!5m2!1sen!2sng"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8070402.195925143!2d4.179989050200096!3d9.006512062291518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2sng!4v1630507675819!5m2!1sen!2sng"
             title="map"
             width="600"
             height="450"
@@ -38,8 +38,7 @@ const Contact = () => {
           />
           <ContactSection
             icon={location}
-            text1={"PortHarcourt, Rivers State"}
-            text2={"Nigeria"}
+            text1={"Nigeria"}
             title={"Location"}
           />
         </div>
