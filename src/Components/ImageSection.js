@@ -1,5 +1,5 @@
 import React from "react";
-import myself from "../img/myself.jpg";
+import myself from "../img/myself.webp";
 
 const ImageSection = () => {
   return (

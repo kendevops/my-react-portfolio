@@ -1,12 +1,12 @@
 import previewImage from "../img/view.png"
 import gitIcon from "../img/github.png"
-import recipe from "../img/recipe-App.jpeg"
-import saleswale from "../img/saleswale-site.png"
-import covid19 from "../img/Covid19.png"
-import chrome from "../img/chrome-extention.png"
-import arcade from "../img/arcade.png"
-import movies from "../img/nominate-movies.png"
-import landing from "../img/landing.png"
+import recipe from "../img/recipe-App.webp"
+import saleswale from "../img/saleswale-site.webp"
+import covid19 from "../img/Covid19.webp"
+import chrome from "../img/chrome-extention.webp"
+import arcade from "../img/arcade.webp"
+import movies from "../img/nominate-movies.webp"
+import landing from "../img/landing.webp"
 
 const PortfolioData = [
 
