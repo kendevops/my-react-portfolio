@@ -1,5 +1,5 @@
-import previewImage from "../img/view.png"
-import gitIcon from "../img/github.png"
+import previewImage from "../img/view.webp"
+import gitIcon from "../img/github.webp"
 import recipe from "../img/recipe-App.webp"
 import saleswale from "../img/saleswale-site.webp"
 import covid19 from "../img/Covid19.webp"

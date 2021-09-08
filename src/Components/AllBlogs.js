@@ -1,12 +1,13 @@
 import {useState, useEffect} from 'react';
-import loading from "../img/loading.jpg"
+import loading from "../img/loading.webp"
 
 const AllBlogs = () => {
     const [blogData, getBlogData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(() => {
-        fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kendevops`)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    useEffect(async () => {
+         await fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kendevops`)
         .then(res => res.json())
         .then(response => {
             getBlogData(response.items);
