@@ -20,10 +20,10 @@ const App = () => {
       <div className={`sidebar ${navToggle ? "nav-toggle": ""}`}>
         <NavBar click={navClick}/>
       </div>
-      <div className="nav-btn" onClick={navClick}>
-        <div className="lines-1"></div>
-        <div className="lines-2"></div>
-        <div className="lines-3"></div>
+      <div class={`menu-toggler ${navToggle ? "open" : ""}`} onClick={navClick}>
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
       </div>
       <div className="main-content">
         <div className="content">
