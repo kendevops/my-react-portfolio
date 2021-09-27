@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Link to view project
 
 This project meant as my personal portfolio site [Click Here](https://kendevops.com) to view.
 
